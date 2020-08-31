@@ -73,7 +73,6 @@ function engineerQuestions(originalAnswers) {
     .then(response => {
       const newEngineer = new Engineer(originalAnswers.name, originalAnswers.id, originalAnswers.email, response.github);
       teamArr.push(newEngineer);
-      console.log(newEngineer);
       console.log(teamArr);
 
       if (response.addAnother === true) {
@@ -102,7 +101,6 @@ function internQuestions(originalAnswers) {
     .then(response => {
       const newIntern = new Intern (originalAnswers.name, originalAnswers.id, originalAnswers.email, response.school);
       teamArr.push(newIntern);
-      console.log(newIntern);
       console.log(teamArr);
       if (response.addAnother === true) {
         employeeQuestions();
@@ -130,7 +128,6 @@ function managerQuestions(originalAnswers) {
     .then(response => {
       const newManager = new Manager (originalAnswers.name, originalAnswers.id, originalAnswers.email, response.officeNumber);
       teamArr.push(newManager);
-      console.log(newManager);
       console.log(teamArr);
       if (response.addAnother === true) {
         employeeQuestions();
