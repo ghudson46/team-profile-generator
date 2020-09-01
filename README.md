@@ -10,7 +10,7 @@
   ## Description
   ![badge](https://img.shields.io/badge/License-MIT-yellow.svg)
   [App Link](https://github.com/ghudson46/team-profile-generator)
-  ![App Img](assets\team-generator-img.png)
+  ![App Img](https://user-images.githubusercontent.com/63625541/91789890-8e8b1200-ebdd-11ea-927c-e119dd99a51e.png)
   This is a CLI app that uses inquirer prompts to gather information on a team of employees. The application renders an output html that shows the information in individualized employee cards for each employee. The cards will have clickable links to see the employees email and github page. The application also uses jest to test the functionality and ensure everything is working properly.
   ## Installation
   To run this app, the user needs to install node.js, and inquirer
