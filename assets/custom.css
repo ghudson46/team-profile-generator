@@ -1,6 +1,10 @@
+body {
+  background-color: slategray;
+}
+
 a {
   text-decoration: none;
-  color: black;
+  color: slategrey;
   width: 100%;
 }
 
@@ -12,17 +16,48 @@ a:hover {
 i {
   margin-right: -200px;
 }
+
+h1 {
+  font-size: 72px;
+  font-weight: 800;
+  color: slategrey;
+  -webkit-text-stroke: 1px yellow;
+}
+
+.jumbotron {
+  background: #bada55;
+}
+
+.card-header {
+  background-color: yellow;
+}
+
+
 .card {
   margin: 0 10px;
+  background-color: #bada55;
+  border: 5px solid #bada55;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .card-title {
+  margin-top: 30px;
+  font-weight: 800;
   text-align: center;
+  color: slategrey;
+  -webkit-text-stroke: 1px #bada55;
 }
 
 .list-group {
   text-align: center;
   width: 100%;
+  color: slategrey;
 }
 
 .card-header {
