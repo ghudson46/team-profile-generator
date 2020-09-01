@@ -17,7 +17,7 @@
   ## Usage
   the app is used by opening up the command line in the 'develop' directory and typing 'node app.js'. The user answers the prompt questions to enter information for each employee. Upon completion the console will log 'team built!' and at that point the user will click on the team.html file in the output folder and open it in the browser to view their team.
   
-  [Watch it in action!]("")
+  [Watch it in action!]("https://youtu.be/nyexjKjtTck")
   ## License
   [MIT](https://opensource.org/licenses/MIT)
   ## Contributing
